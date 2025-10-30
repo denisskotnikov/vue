@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+    - '@evilmartians/lefthook'
+    - '@tailwindcss/oxide'
+    - ejs
+    - esbuild
+    - unrs-resolver

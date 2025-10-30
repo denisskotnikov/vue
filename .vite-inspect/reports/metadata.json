@@ -1,0 +1,383 @@
+{
+  "instances": [
+    {
+      "root": "/Users/ilaolovannikov/WebstormProjects/ithub-vue",
+      "vite": "vite1",
+      "plugins": [
+        {
+          "name": "vite:optimized-deps",
+          "applyToEnvironment": "[Function]",
+          "resolveId": "[Function]",
+          "load": "[Function]"
+        },
+        {
+          "name": "vite:watch-package-data",
+          "buildStart": "[Function]",
+          "buildEnd": "[Function]",
+          "watchChange": "[Function]"
+        },
+        {
+          "name": "vite:pre-alias",
+          "applyToEnvironment": "[Function]",
+          "resolveId": "[Function]"
+        },
+        {
+          "name": "alias",
+          "buildStart": "[Function]",
+          "resolveId": "[Function]"
+        },
+        {
+          "name": "@tailwindcss/vite:scan",
+          "enforce": "pre",
+          "configureServer": "[Function]",
+          "configResolved": "[Function]"
+        },
+        {
+          "name": "@tailwindcss/vite:generate:serve",
+          "apply": "serve",
+          "enforce": "pre",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vite-plugin-inspect",
+          "enforce": "pre",
+          "apply": "[Function]",
+          "configResolved": "[Function]",
+          "configureServer": "[Function]",
+          "load": {
+            "order": "pre",
+            "handler": "[Function]"
+          },
+          "hotUpdate": "[Function]",
+          "buildEnd": "[Function]",
+          "api": "[Object API]"
+        },
+        {
+          "name": "vite-plugin-svgr",
+          "enforce": "pre",
+          "load": "[Function]"
+        },
+        {
+          "name": "vitest",
+          "enforce": "pre",
+          "options": "[Function]",
+          "config": "[Function]",
+          "configResolved": "[Function]",
+          "configureServer": {
+            "order": "post",
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vitest:ssr-replacer",
+          "enforce": "pre",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:css-disable",
+          "enforce": "pre",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:resolve-core",
+          "enforce": "pre",
+          "resolveId": "[Function]"
+        },
+        {
+          "name": "vite:modulepreload-polyfill",
+          "resolveId": {
+            "handler": "[Function]"
+          },
+          "load": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": "[Function]",
+          "load": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:html-inline-proxy",
+          "resolveId": {
+            "handler": "[Function]"
+          },
+          "load": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:css",
+          "buildStart": "[Function]",
+          "buildEnd": "[Function]",
+          "load": {
+            "handler": "[Function]"
+          },
+          "transform": "[Function handler]"
+        },
+        {
+          "name": "vite:esbuild",
+          "configureServer": "[Function]",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vite:json",
+          "transform": "[Function handler]"
+        },
+        {
+          "name": "vite:wasm-helper",
+          "resolveId": {
+            "handler": "[Function]"
+          },
+          "load": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:worker",
+          "buildStart": "[Function]",
+          "load": {
+            "handler": "[Function]"
+          },
+          "shouldTransformCachedModule": "[Function]",
+          "transform": {
+            "handler": "[Function]"
+          },
+          "renderChunk": "[Function]",
+          "generateBundle": "[Function]"
+        },
+        {
+          "name": "vite:asset",
+          "perEnvironmentStartEndDuringDev": true,
+          "buildStart": "[Function]",
+          "resolveId": {
+            "handler": "[Function]"
+          },
+          "load": {
+            "handler": "[Function]"
+          },
+          "renderChunk": "[Function]",
+          "generateBundle": "[Function]"
+        },
+        {
+          "name": "vite:vue",
+          "api": "[Object API]",
+          "handleHotUpdate": "[Function]",
+          "config": "[Function]",
+          "configResolved": "[Function]",
+          "shouldTransformCachedModule": "[Function]",
+          "configureServer": "[Function]",
+          "buildStart": "[Function]",
+          "resolveId": "[Function]",
+          "load": "[Function]",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:coverage-transform",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:normalize-optimizer",
+          "config": {
+            "order": "post",
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:wasm-fallback",
+          "load": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:define",
+          "transform": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:css-post",
+          "renderStart": "[Function]",
+          "transform": "[Function handler]",
+          "renderChunk": "[Function]",
+          "augmentChunkHash": "[Function]",
+          "generateBundle": "[Function]"
+        },
+        {
+          "name": "vite:worker-import-meta-url",
+          "applyToEnvironment": "[Function]",
+          "shouldTransformCachedModule": "[Function]",
+          "transform": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:asset-import-meta-url",
+          "applyToEnvironment": "[Function]",
+          "transform": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:dynamic-import-vars",
+          "resolveId": {
+            "handler": "[Function]"
+          },
+          "load": {
+            "handler": "[Function]"
+          },
+          "transform": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:import-glob",
+          "buildStart": "[Function]",
+          "transform": {
+            "handler": "[Function]"
+          },
+          "hotUpdate": "[Function]"
+        },
+        {
+          "name": "unplugin-vue-components",
+          "enforce": "post",
+          "api": "[Object API]",
+          "transformInclude": "[Function]",
+          "transform": "[Function]",
+          "vite": {
+            "configResolved": "[Function]",
+            "configureServer": "[Function]"
+          },
+          "webpack": "[Function]",
+          "configResolved": "[Function]",
+          "configureServer": "[Function]"
+        },
+        {
+          "name": "vitest:css-empty-post",
+          "enforce": "post",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:mocks",
+          "enforce": "post",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:automock",
+          "enforce": "post",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vitest:normalize-url",
+          "enforce": "post",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vite:client-inject",
+          "buildStart": "[Function]",
+          "transform": "[Function]"
+        },
+        {
+          "name": "vite:css-analysis",
+          "transform": {
+            "handler": "[Function]"
+          }
+        },
+        {
+          "name": "vite:import-analysis",
+          "transform": "[Function]"
+        }
+      ],
+      "environments": [
+        "client",
+        "ssr"
+      ],
+      "environmentPlugins": {
+        "client": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "ssr": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      }
+    }
+  ]
+}
